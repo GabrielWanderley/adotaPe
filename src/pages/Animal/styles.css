@@ -1,0 +1,77 @@
+
+
+.animalsBackImage{
+    margin: 0 auto;
+    max-width: 1500px;
+    background-image: url('../../assets/animalback.png') ;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    border-radius: 40px;
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+
+    }
+    img{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+}
+
+.imageAnimalContent{
+   text-align: center;
+   img{
+   width: 560px;
+   height: 560px;
+   }
+}
+
+.textAnimalContent{
+    margin: 0 auto;
+    max-width: 900px;
+    p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .animalsBackImage{
+        margin: 0 auto;
+        max-width: 330px;
+        background-image: url('../../assets/animalback.png') ;
+        background-size: cover;
+        background-position: center;
+        min-height: 1000px;
+
+        border-radius: 40px;
+        h1{
+            text-align: center;
+            font-size: 40;
+            font-weight: 500;
+            color: white;
+    
+        }
+    }
+    
+    .imageAnimalContent{
+       text-align: center;
+       img{
+       width: 280px;
+       height: 280px;
+       }
+    }
+    
+    .textAnimalContent{
+        margin: 0 auto;
+        max-width: 300px;
+        p{
+            font-size: 20px;    
+        }
+    }
+}

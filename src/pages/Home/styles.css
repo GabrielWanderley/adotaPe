@@ -1,0 +1,430 @@
+.containerHome{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.backStart{
+    padding-top: 1px;
+    background-image: url('../../assets/backgroundFirst.png');
+    width: 100%;
+    height: 877px;
+}
+
+.backStartContent{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.startText{
+  width: 610px;
+  margin-top: 100px;
+  float: left;
+  margin-bottom: 130px;
+  h1{
+    font-size: 59px;
+    font-weight: 500;
+  }
+  p{
+    font-size: 20px;
+  }
+  button{
+     width: 260px;
+     height: 80px;
+     background-color: var(--colorblue);
+     font-size: 30px;
+     border-radius: 300px;
+     margin-left: 150px;
+     border: none;
+     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.startimage{
+    float: right;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+.midleAnimals{
+    text-align: center;
+    img{
+        margin-left:400px;
+    }
+}
+
+.startAnimalsContent{
+    width: 100%;
+    background-color: var(--contentPink);
+    height: 147px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    margin-top: -23px;
+    justify-content: center;
+}
+
+.limitStartAnimalsContent{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 57px;
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.animalStart{
+  margin-top: 5px;
+ width: 300px;
+  height: 140px;
+  cursor: pointer;
+  img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 0px;
+    float: left;
+  }
+  p{
+    
+  }
+}
+
+
+.contetMidle{
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 200px;
+  h1{
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+
+.contetMidleInfo{
+  max-width: 410px;
+  float: right;
+  h1{
+    color: var(--colorblue);
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.contentAdote{
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: 200px;
+  h1{
+
+    font-size: 40px;
+    font-weight: 500;
+  }
+}
+
+.button1{
+  background-color:var(--colorblue) ;
+  height: 120px;
+  width: 200px;
+  border: none;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-right: 1px solid white;
+  img{
+     height: 100px;
+  }
+  cursor: pointer;
+}
+
+.button1:hover{
+  background-color:var(--colorbluelight) ;
+transition: 0.5s;
+}
+
+.button2{
+  background-color:var(--colorblue) ;
+  height: 120px;
+  width: 200px;
+  border: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-left: 1px solid white;
+  cursor: pointer;
+  img{
+    height: 100px;
+ }
+}
+
+.button2:hover{
+  background-color: var(--colorbluelight);
+transition: 0.5s;
+}
+
+.contentdisplayAnimais{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define as colunas automáticas com um mínimo de 200px e distribuindo o espaço restante */
+  gap: 67px;
+}
+
+.Animal{
+   background-color: var(--colorbluelight);
+   margin-top: 50px;
+   border-radius: 10px;
+   width: 300px;
+   min-height: 350px;
+   padding-bottom: 10px;
+   word-break: break-word;
+
+   img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+   }
+   h2{
+
+    font-size: 30px;
+    font-weight: 500;
+  }
+  span{
+    color: rgb(255, 0, 200);
+   
+  }
+  cursor: pointer;
+}
+
+.Animal:hover{
+  background-color: var(--colorblue);
+transition: 0.5s;
+}
+
+
+
+.donateback{
+  margin-top: 190px;
+  background-color: var(--colorblue);    
+  background-image: url('../../assets/lastBack.png');
+  width: 100%;
+  height: 1000px;
+}
+
+.dotaneArea{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.titleDonate{
+  display: flex;
+  width: 100%;
+  background-color: var(--contentPink);
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  top: -50px;
+  position: relative;
+}
+.donateText{
+  float: left;
+  width: 400px;
+  h1{
+    font-size: 40px;
+    font-weight: 500;    
+  }
+  p{
+    font-size: 20px;
+  }
+}
+.donateQr{
+  text-align: center;
+  float: right;
+  margin-right: 10px;
+  h1{
+    font-size: 40px;
+    font-weight: 500;    
+  }
+}
+.qrCode{
+  background-color: var(--contentPink);
+  width: 516px;
+  height: 513px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* celular */
+@media (max-width: 768px) {
+   
+    .backStartContent{
+        margin: 0 auto;
+        max-width: 330px;
+        
+    }
+    .backStart{
+      overflow: hidden;
+    }
+    .startText{
+        width: 210px;
+        margin-top: 100px;
+        float: left;
+        h1{
+          font-size: 23px;
+          font-weight: 500;
+        }
+        p{
+          font-size: 13px;
+          font-weight: 400;
+        }
+        button{
+           width: 120px;
+           height: 80px;
+           background-color: var(--colorblue);
+           font-size: 20px;
+           border-radius: 300px;
+           margin-left: 20px;
+           border: none;
+           box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .startimage{
+        float: right;
+        display: flex;
+        margin-top: 100px;
+        width: 100px;
+        height: 400px;
+        
+    }
+
+    .limitStartAnimalsContent{
+      max-width:270px;
+      height: 200px;
+      overflow: hidden;
+    }
+    
+    .midleAnimals{
+        text-align: center;
+        position: absolute;
+        margin-top: 600px;
+        img{
+            margin-left:0px;
+        }
+    }
+    
+    .startAnimalsContent{
+        width: 100%;
+        background-color: var(--contentPink);
+        height: 147px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+        margin-top: -23px;
+        
+    }
+
+    .contetMidleInfo{
+      text-align: center;
+      margin: 0 auto;
+      max-width: 320px;
+      float: none;
+    }
+
+    .contetMidle{
+      h1{
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+
+    .contentAdote{
+      margin: 0 auto;
+      max-width: 400px;
+      margin-top: 100px;
+      h1{
+    
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+
+    .button1{
+      height: 100px;
+      width: 180px;
+      img{
+         height: 80px;
+      }
+    }
+
+    .button2{
+      height: 100px;
+      width: 180px;
+      img{
+        height: 80px;
+     }
+    }
+
+    .contentdisplayAnimais{
+      display: inline-block;
+    }
+
+    .donateback{
+      margin-top: 190px;
+      height: 1400px;
+    }
+    .dotaneArea{
+      max-width: 350px;
+    }
+    
+    .titleDonate{
+      text-align: center;
+       h1{
+        font-size: 22px;
+        font-weight: 500;  
+       }
+    }
+    .donateText{
+      text-align: center;
+      float: left;
+      width: 340px;
+      h1{
+        font-size: 35px;
+        font-weight: 500;    
+      }
+      p{
+        font-size: 19px;
+      }
+    }
+    .donateQr{
+      margin: 0 auto;
+      max-width: 340px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      float: none;
+      margin-right: 0px;
+      h1{
+        font-size: 35px;
+        font-weight: 500;    
+      }
+    }
+    .qrCode{
+      background-color: var(--contentPink);
+      margin: 0 auto;
+      margin-right: 15px;
+      width: 320px;
+      height: 320px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       img{
+          height: 300px;
+          width: 300px;
+       }
+    }
+  }
